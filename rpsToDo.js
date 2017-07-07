@@ -121,8 +121,8 @@ var play = function(playerChoice) {
   //TO DO: enter code to match 'winner' above for 'wins' and 'losses'
 
   //YOUR CODE GOES HERE
-	document.getElementById('results').innerHTML = wins;
-  document.getElementById('results').innnerHTML = losses;		
+	document.getElementById('wins').innerHTML = wins;
+  document.getElementById('losses').innnerHTML = losses;		
   if (wins > 99 || losses > 99) {
     alert('You have played 99 rounds! <br />Take a break and go outside.');
   }
