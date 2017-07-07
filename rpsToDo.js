@@ -122,7 +122,7 @@ var play = function(playerChoice) {
 
   //YOUR CODE GOES HERE
 	document.getElementById('wins').innerHTML = wins;
-  document.getElementById('losses').innnerHTML = losses;		
+  document.getElementById('losses').innerHTML = losses;		
   if (wins > 99 || losses > 99) {
     alert('You have played 99 rounds! <br />Take a break and go outside.');
   }
